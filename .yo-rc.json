@@ -1,0 +1,18 @@
+{
+  "generator-cds-talk": {
+    "presentationTitle": "Applying IBM Graph for Better Automated Recommendations",
+    "presentationSubTitle": "",
+    "packageVersion": "0.0.1",
+    "revealLayout": "cloudant",
+    "revealTheme": "ibm-cds",
+    "useSass": false,
+    "deployToGithubPages": true,
+    "githubUsername": "ukmadlz",
+    "githubRepository": "Applying-IBM-Graph-for-Better-Automated-Recommendations",
+    "authorName": "Mike Elsmore",
+    "authorJobTitle": "Developer Advocate",
+    "authorEmail": "mike.elsmore@uk.ibm.com",
+    "authorTwitter": "ukmadlz",
+    "authorGithub": "ukmadlz"
+  }
+}

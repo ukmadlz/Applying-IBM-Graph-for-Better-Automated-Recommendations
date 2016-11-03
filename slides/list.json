@@ -1,0 +1,74 @@
+[
+    {
+        "filename": "blank.md",
+        "attr": {
+            "data-background": "images/WOW-page-001.jpg"
+        }
+    },
+    {
+        "filename": "author.md",
+        "attr": {
+            "id": "author"
+        }
+    },
+    {
+        "filename": "blank.md",
+        "attr": {
+            "data-background": "images/Sunshine_morning.jpg"
+        }
+    },
+    {
+        "filename": "not-morning.md",
+        "attr": {
+            "data-background": "images/Sunshine_morning.jpg"
+        }
+    },
+    [
+        "where-i-work.html",
+        "what-i-work-on.md"
+    ],
+    "whats-it-all-about.md",
+    "to-be-honest.md",
+    "ibm-graph.md",
+    "what-is-ibm-graph.md",
+    "an-enterprise-grade-property-graph-as-a-service-built-on-open-source-database-technologies.md",
+    {
+        "filename": "tinkerpop3.html",
+        "attr": {
+            "data-background": "images/tinkerpop-splash.png"
+        }
+    },
+    "olap-vs-oltp.md",
+    "oltp.md",
+    "transactional-faster-returned-queries.md",
+    "recommendation-engines.md",
+    "what-are-recommendation-engines.md",
+    "they-are-everywhere.md",
+    "some-retail-examples.md",
+    "basic-retail-model.md",
+    "recommend-me-a-product-i-may-want.md",
+    "product-page-car.html",
+    "which-people-bought-the-car.html",
+    "car-query.md",
+    "tag-based.md",
+    "product-page-car.html",
+    "which-tags-match-the-car.html",
+    "car-tag-query.md",
+    "draw-backs-flaws.md",
+    "social-networks.md",
+    "prime-example.html",
+    "basic-social-network.md",
+    "tag-based.md",
+    "twitter-tag-query.md",
+    "influencer.md",
+    "influencer.html",
+    "influencer-query.md",
+    "get-clever.md",
+    "questions.md",
+    {
+        "filename": "blank.md",
+        "attr": {
+            "data-background": "images/WOW-page-002.jpg"
+        }
+    }
+]
