@@ -1,0 +1,460 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+
+        <title>Applying IBM Graph for Better Automated Recommendations</title>
+
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <link rel="stylesheet" href="bower_components/reveal.js/css/reveal.min.css">
+
+        <link rel="stylesheet" href="css/cloudant.css" id="theme">
+
+
+        <link rel="stylesheet" href="css/ibm-cds.css" id="theme">
+
+
+        <!-- For syntax highlighting -->
+        <link rel="stylesheet" href="bower_components/reveal-highlight-themes/styles/zenburn.css" id="highlight-theme">
+
+        <!-- If the query includes 'print-pdf', use the PDF print sheet -->
+        <script>
+          if( window.location.search.match( /print-pdf/gi ) ) {
+            var link = document.createElement( 'link' );
+                link.rel = 'stylesheet';
+                link.type = 'text/css';
+                link.href = 'bower_components/reveal.js/css/print/pdf.css';
+                document.getElementsByTagName( 'head' )[0].appendChild( link );
+            }
+        </script>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+        <!--[if lt IE 9]>
+        <script src="lib/js/html5shiv.js"></script>
+        <![endif]-->
+    </head>
+
+    <body>
+
+        <div class="reveal">
+
+            <header style="width: 90%;">
+              <h2 style="float: right; margin-top: 0.5em;">
+
+                <i class="fa fa-twitter"></i><i class="fa fa-github"></i> / ukmadlz
+
+              </h2>
+            </header>
+
+            <div class="slides">
+
+                
+                  
+                    
+                        
+    <section data-background="images/WOW-page-001.jpg" data-markdown="slides/blank.md"></section>
+
+
+                    
+                    
+                
+                  
+                    
+                        
+    <section id="author" data-markdown="slides/author.md"></section>
+
+
+                    
+                    
+                
+                  
+                    
+                        
+    <section data-background="images/Sunshine_morning.jpg" data-markdown="slides/blank.md"></section>
+
+
+                    
+                    
+                
+                  
+                    
+                        
+    <section data-background="images/Sunshine_morning.jpg" data-markdown="slides/not-morning.md"></section>
+
+
+                    
+                    
+                
+                  
+                    
+                    
+                        <section>
+                            
+                                
+    <section data-html="slides/where-i-work.html"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/what-i-work-on.md"></section>
+
+
+                            
+                        </section>
+                    
+                
+                  
+                    
+                        
+    <section data-markdown="slides/whats-it-all-about.md"></section>
+
+
+                    
+                    
+                
+                  
+                    
+                        
+    <section data-markdown="slides/to-be-honest.md"></section>
+
+
+                    
+                    
+                
+                  
+                    
+                        
+    <section data-markdown="slides/ibm-graph.md"></section>
+
+
+                    
+                    
+                
+                  
+                    
+                        
+    <section data-markdown="slides/what-is-ibm-graph.md"></section>
+
+
+                    
+                    
+                
+                  
+                    
+                        
+    <section data-markdown="slides/an-enterprise-grade-property-graph-as-a-service-built-on-open-source-database-technologies.md"></section>
+
+
+                    
+                    
+                
+                  
+                    
+                        
+    <section data-background="images/tinkerpop-splash.png" data-html="slides/tinkerpop3.html"></section>
+
+
+                    
+                    
+                
+                  
+                    
+                        
+    <section data-markdown="slides/olap-vs-oltp.md"></section>
+
+
+                    
+                    
+                
+                  
+                    
+                        
+    <section data-markdown="slides/oltp.md"></section>
+
+
+                    
+                    
+                
+                  
+                    
+                        
+    <section data-markdown="slides/transactional-faster-returned-queries.md"></section>
+
+
+                    
+                    
+                
+                  
+                    
+                        
+    <section data-markdown="slides/recommendation-engines.md"></section>
+
+
+                    
+                    
+                
+                  
+                    
+                        
+    <section data-markdown="slides/what-are-recommendation-engines.md"></section>
+
+
+                    
+                    
+                
+                  
+                    
+                        
+    <section data-markdown="slides/they-are-everywhere.md"></section>
+
+
+                    
+                    
+                
+                  
+                    
+                        
+    <section data-markdown="slides/some-retail-examples.md"></section>
+
+
+                    
+                    
+                
+                  
+                    
+                        
+    <section data-markdown="slides/basic-retail-model.md"></section>
+
+
+                    
+                    
+                
+                  
+                    
+                        
+    <section data-markdown="slides/recommend-me-a-product-i-may-want.md"></section>
+
+
+                    
+                    
+                
+                  
+                    
+                        
+    <section data-html="slides/product-page-car.html"></section>
+
+
+                    
+                    
+                
+                  
+                    
+                        
+    <section data-html="slides/which-people-bought-the-car.html"></section>
+
+
+                    
+                    
+                
+                  
+                    
+                        
+    <section data-markdown="slides/car-query.md"></section>
+
+
+                    
+                    
+                
+                  
+                    
+                        
+    <section data-markdown="slides/tag-based.md"></section>
+
+
+                    
+                    
+                
+                  
+                    
+                        
+    <section data-html="slides/product-page-car.html"></section>
+
+
+                    
+                    
+                
+                  
+                    
+                        
+    <section data-html="slides/which-tags-match-the-car.html"></section>
+
+
+                    
+                    
+                
+                  
+                    
+                        
+    <section data-markdown="slides/car-tag-query.md"></section>
+
+
+                    
+                    
+                
+                  
+                    
+                        
+    <section data-markdown="slides/draw-backs-flaws.md"></section>
+
+
+                    
+                    
+                
+                  
+                    
+                        
+    <section data-markdown="slides/social-networks.md"></section>
+
+
+                    
+                    
+                
+                  
+                    
+                        
+    <section data-html="slides/prime-example.html"></section>
+
+
+                    
+                    
+                
+                  
+                    
+                        
+    <section data-markdown="slides/basic-social-network.md"></section>
+
+
+                    
+                    
+                
+                  
+                    
+                        
+    <section data-markdown="slides/tag-based.md"></section>
+
+
+                    
+                    
+                
+                  
+                    
+                        
+    <section data-markdown="slides/twitter-tag-query.md"></section>
+
+
+                    
+                    
+                
+                  
+                    
+                        
+    <section data-markdown="slides/influencer.md"></section>
+
+
+                    
+                    
+                
+                  
+                    
+                        
+    <section data-html="slides/influencer.html"></section>
+
+
+                    
+                    
+                
+                  
+                    
+                        
+    <section data-markdown="slides/influencer-query.md"></section>
+
+
+                    
+                    
+                
+                  
+                    
+                        
+    <section data-markdown="slides/get-clever.md"></section>
+
+
+                    
+                    
+                
+                  
+                    
+                        
+    <section data-markdown="slides/questions.md"></section>
+
+
+                    
+                    
+                
+                  
+                    
+                        
+    <section data-background="images/WOW-page-002.jpg" data-markdown="slides/blank.md"></section>
+
+
+                    
+                    
+                
+            </div>
+
+            <footer>
+              © IBM Corporation 2016. All Rights Reserved.
+              <img class="ibm" src="images/ibmpos_blurgb.jpg" />
+            </footer>
+
+        </div>
+
+        <script src="bower_components/reveal.js/lib/js/head.min.js"></script>
+        <script src="bower_components/reveal.js/js/reveal.min.js"></script>
+        <script>
+            // Configure Reveal
+            // Full list of configuration options available here:
+            // https://github.com/hakimel/reveal.js#configuration
+            Reveal.initialize({
+                controls: true,
+                progress: true,
+                history: true,
+                center: true,
+
+                theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+                transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+                // Optional libraries used to extend on reveal.js
+                dependencies: [
+                    { src: 'bower_components/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+                    { src: 'bower_components/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: 'bower_components/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: 'bower_components/reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+                    { src: 'bower_components/reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+                    { src: 'bower_components/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+                    // { src: 'bower_components/reveal.js/plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } }
+                    //{ src: 'bower_components/reveal.js/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+
+                    { src: 'js/loadhtmlslides.js', condition: function() { return !!document.querySelector( '[data-html]' ); } }
+                ]
+            });
+        </script>
+
+    </body>
+
+</html>
